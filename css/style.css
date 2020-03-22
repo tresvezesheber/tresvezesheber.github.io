@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #dcdcdc;
+}
+
+#app {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#app ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 120px;
+}
